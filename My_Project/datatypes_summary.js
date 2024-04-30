@@ -33,3 +33,22 @@ console.log(myObj);
 const myFunction = function(){
     console.log("Hello World");
 }
+//*************Memory**************//
+//There are two types of memories:
+//1.Stack (Primitive) it gives you copy of your variable
+//2.Heap (Non-Primitive) it gives you reference of original value
+
+let myyoutubename = "ZK SOLUTION WORLD"
+let anothername=myyoutubename
+anothername="trend_designdynasty"
+//console.log(myyoutubename)
+//console.log(anothername)
+
+let oneuse={
+    email:"abc@gmail.com",
+    upi: "use@ibl"
+}
+let usertwo = userone
+usertwo.email="xyz@gmail.com"
+console.log(userone.email);
+console.log(usertwo.email);
